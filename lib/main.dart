@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      //By default makes your app always load the StartUpWidget
       home: StartUpWidget(),
     );
   }
